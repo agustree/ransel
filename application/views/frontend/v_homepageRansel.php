@@ -205,11 +205,11 @@
 						<nav class="tg-infonav">
 							<ul>
 								<li>
-									<i><img src="<?php echo base_url().'assets/images/images/icons/icon-01.png'?>"  alt="image destinations"></i>
+									<i><img src="<?php echo base_url().'assets_frontend/img/images/icons/icon-01.png'?>"  alt="image destinations"></i>
 									<span>1-800-321-6543</span>
 								</li>
 								<li>
-									<i><img src="<?php echo base_url().'assets/images/images/icons/icon-02.png'?>" alt="image destinations"></i>
+									<i><img src="<?php echo base_url().'assets_frontend/img/images/icons/icon-02.png'?>" alt="image destinations"></i>
 									<span>CHOOSE YOUR EXPERIENCE <a href="javascript:void(0);">Discover more</a></span>
 								</li>
 							</ul>
@@ -225,13 +225,13 @@
 								<ul>
 									<li>
 										<a href="javascript:void(0);">
-											<img src="<?php echo base_url().'assets/images/images/icons/icon-03.png'?>" alt="image destinations"></a>
+											<img src="<?php echo base_url().'assets_frontend/img/images/icons/icon-03.png'?>" alt="image destinations"></a>
 										<div class="tg-cartitems">
 											<div class="tg-cartlistitems">
 												<h3>Shopping Cart</h3>
 												<div class="tg-cartitem">
 													<figure class="tg-itemimg">
-														<img src="<?php echo base_url().'assets/images/images/products/img-11.jpg'?>"  alt="image description"></figure>
+														<img src="<?php echo base_url().'assets_frontend/img/images/products/img-11.jpg'?>"  alt="image description"></figure>
 													<div class="tg-contentbox">
 														<div class="tg-producthead">
 															<em>x 2</em>
@@ -241,7 +241,7 @@
 													</div>
 												</div>
 												<div class="tg-cartitem">
-													<figure class="tg-itemimg"><img src="<?php echo base_url().'assets/images/images/products/img-11.jpg'?>"  alt="image description"></figure>
+													<figure class="tg-itemimg"><img src="<?php echo base_url().'assets_frontend/img/images/products/img-11.jpg'?>"  alt="image description"></figure>
 													<div class="tg-contentbox">
 														<div class="tg-producthead">
 															<em>x 2</em>
@@ -260,7 +260,7 @@
 											</div>
 										</div>
 									</li>
-									<li><a href="#tg-search"><img src="<?php echo base_url().'assets/images/images/icons/icon-04.png'?>" alt="image destinations"></a></li>
+									<li><a href="#tg-search"><img src="<?php echo base_url().'assets_frontend/img/images/icons/icon-04.png'?>" alt="image destinations"></a></li>
 								</ul>
 							</nav>
 						</div>
@@ -326,7 +326,7 @@
 													<div class="item tg-trendingtrip">
 														<figure>
 															<a href="javascript:void(0);">
-																<img src="<?php echo base_url().'assets/images/images/tours/img-05.jpg'?>"   alt="image destinations">
+																<img src="<?php echo base_url().'assets_frontend/img/images/tours/img-05.jpg'?>"   alt="image destinations">
 																<div class="tg-hover">
 																	<span class="tg-stars"><span></span></span>
 																	<span class="tg-tourduration">7 Days</span>
@@ -342,7 +342,7 @@
 													<div class="item tg-trendingtrip">
 														<figure>
 															<a href="javascript:void(0);">
-																<img src="<?php echo base_url().'assets/images/images/tours/img-06.jpg'?>" alt="image destinations">
+																<img src="<?php echo base_url().'assets_frontend/img/images/tours/img-06.jpg'?>" alt="image destinations">
 																<div class="tg-hover">
 																	<span class="tg-stars"><span></span></span>
 																	<span class="tg-tourduration">7 Days</span>
@@ -358,7 +358,7 @@
 													<div class="item tg-trendingtrip">
 														<figure>
 															<a href="javascript:void(0);">
-																<img src="<?php echo base_url().'assets/images/images/tours/img-07.jpg'?>" alt="image destinations">
+																<img src="<?php echo base_url().'assets_frontend/img/images/tours/img-07.jpg'?>" alt="image destinations">
 																<div class="tg-hover">
 																	<span class="tg-stars"><span></span></span>
 																	<span class="tg-tourduration">7 Days</span>
@@ -374,7 +374,7 @@
 													<div class="item tg-trendingtrip">
 														<figure>
 															<a href="javascript:void(0);">
-																<img src="<?php echo base_url().'assets/images/images/tours/img-08.jpg'?>" alt="image destinations">
+																<img src="<?php echo base_url().'assets_frontend/img/images/tours/img-08.jpg'?>" alt="image destinations">
 																<div class="tg-hover">
 																	<span class="tg-stars"><span></span></span>
 																	<span class="tg-tourduration">7 Days</span>
@@ -503,9 +503,9 @@
 				</div>
 			</div>
 			<div id="tg-homeslider" class="tg-homeslider owl-carousel tg-haslayout">
-				<figure class="item" data-vide-bg="poster: images/slider/img-01.jpeg" data-vide-options="position: 0% 50%"></figure>
-				<figure class="item" data-vide-bg="poster: images/slider/img-02.jpg" data-vide-options="position: 0% 50%"></figure>
-				<figure class="item" data-vide-bg="poster: images/slider/img-03.jpg" data-vide-options="position: 0% 50%"></figure>
+				<figure class="item" data-vide-bg="poster: <?php echo base_url() ?>assets_frontend/img/images/slider/img-01.jpg" data-vide-options="position: 0% 50%"></figure>
+				<figure class="item" data-vide-bg="poster: <?php echo base_url() ?>assets_frontend/img/images/slider/img-02.jpg" data-vide-options="position: 0% 50%"></figure>
+				<figure class="item" data-vide-bg="poster: <?php echo base_url() ?>assets_frontend/img/images/slider/img-03.jpg" data-vide-options="position: 0% 50%"></figure>
 			</div>
 		</div>
 		<!--************************************
