@@ -6,7 +6,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>BootStrap HTML5 CSS3 Theme</title>
+	<title>Ransel Rentaldor</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -180,9 +180,9 @@
 					<li><a href="cart.html">Cart</a></li>
 				</ul>
 			</li>
-			<li><a href="javascript:void(0);">Blog</a>
+			<li><a href="<?php echo base_url('application/views/frontend/v_blogRansel.php'); ?>">Blog</a>
 				<ul>
-					<li><a href="blog.html">Blog</a></li>
+					<li><a href="">Blog</a></li>
 					<li><a href="blogdetail.html">Blog Detail</a></li>
 				</ul>
 			</li>
@@ -412,7 +412,7 @@
 										</ul>
 									</li>
 									<li><a href="shop.html">shop</a></li>
-									<li><a href="blog.html">blog</a></li>
+									<li><a href="<?php echo base_url('application/views/frontend/v_blogRansel.php'); ?>">blog</a></li>
 								</ul>
 							</div>
 						</nav>
@@ -1169,7 +1169,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<p>Copyright &copy; 2017 Travlu. All  rights reserved</p>
+							<p>Copyright &copy; 2020 Ransel Rentaldor. All  rights reserved</p>
 						</div>
 					</div>
 				</div>
@@ -1320,8 +1320,7 @@
 			Login Singup End
 	*************************************-->
 
-		<script src="<?php echo base_url(); ?>assets_frontend/js/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-	
+	<script src="<?php echo base_url(); ?>assets_frontend/js/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>	
 	<script  src="<?php echo base_url(); ?>assets_frontend/js/js/vendor/jquery-library.js"></script>
 	<script  src="<?php echo base_url(); ?>assets_frontend/js/js/vendor/bootstrap.min.js"></script>
 	<script  src="https://maps.google.com/maps/api/js?key=AIzaSyCR-KEWAVCn52mSdeVeTqZjtqbmVJyfSus&language=en"></script>

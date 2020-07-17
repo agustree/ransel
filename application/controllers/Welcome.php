@@ -27,7 +27,9 @@ class Welcome extends CI_Controller {
 		//$this->load->view('frontend/v_header',$data);
 		//$this->load->view('frontend/v_homepage',$data);
 		//$this->load->view('frontend/v_footer',$data);
-	   $this->load->view('frontend/v_homepageRansel');
+		
+		/*////////percobaan halaman utama penuh//////////////*/
+	  // $this->load->view('frontend/v_homepageRansel');
 	}
 
 	public function single($slug)
