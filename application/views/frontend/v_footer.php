@@ -31,7 +31,7 @@
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 <div id="preloader"></div>
 
-<!-- JavaScript Libraries -->
+<!-- JavaScript Libraries --->
 <script src="<?php echo base_url(); ?>assets_frontend/lib/jquery/jquery.min.js"></script>
 <script src="<?php echo base_url(); ?>assets_frontend/lib/jquery/jquery-migrate.min.js"></script>
 <script src="<?php echo base_url(); ?>assets_frontend/lib/popper/popper.min.js"></script>

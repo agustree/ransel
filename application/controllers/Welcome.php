@@ -15,18 +15,22 @@ class Welcome extends CI_Controller {
 	public function index()
 	{		
 		// 3 artikel terbaru
-		$data['artikel'] = $this->db->query("SELECT * FROM artikel,pengguna,kategori WHERE artikel_status='publish' AND artikel_author=pengguna_id AND artikel_kategori=kategori_id ORDER BY artikel_id DESC LIMIT 3")->result();
+		//$data['artikel'] = $this->db->query("SELECT * FROM artikel,pengguna,kategori WHERE artikel_status='publish' AND artikel_author=pengguna_id AND //artikel_kategori=kategori_id ORDER BY artikel_id DESC LIMIT 3")->result();
 
 		// data pengaturan website
-		$data['pengaturan'] = $this->m_data->get_data('pengaturan')->row();
+		//$data['pengaturan'] = $this->m_data->get_data('pengaturan')->row();
 
 		// SEO META
-		$data['meta_keyword'] = $data['pengaturan']->nama;
-		$data['meta_description'] = $data['pengaturan']->deskripsi;
+		//$data['meta_keyword'] = $data['pengaturan']->nama;
+		//$data['meta_description'] = $data['pengaturan']->deskripsi;
 
 		//$this->load->view('frontend/v_header',$data);
 		//$this->load->view('frontend/v_homepage',$data);
 		//$this->load->view('frontend/v_footer',$data);
+
+		$this->load->view('frontend/v_headerRansel');
+		$this->load->view('frontend/v_homeRansel');
+		$this->load->view('frontend/v_footerRansel');
 		
 		/*////////percobaan halaman utama penuh//////////////*/
 	  // $this->load->view('frontend/v_homepageRansel');
@@ -57,7 +61,7 @@ class Welcome extends CI_Controller {
 	{		
 
 		// data pengaturan website
-		$data['pengaturan'] = $this->m_data->get_data('pengaturan')->row();
+	/*	$data['pengaturan'] = $this->m_data->get_data('pengaturan')->row();
 
 		// SEO META
 		$data['meta_keyword'] = $data['pengaturan']->nama;
@@ -101,7 +105,9 @@ class Welcome extends CI_Controller {
 
 		$this->load->view('frontend/v_header',$data);
 		$this->load->view('frontend/v_blog',$data);
-		$this->load->view('frontend/v_footer',$data);
+		$this->load->view('frontend/v_footer',$data);*/
+
+		$this->load->view('frontend/v_blogRansel');
 	}
 
 	public function page($slug)
@@ -227,6 +233,11 @@ class Welcome extends CI_Controller {
 		$this->load->view('frontend/v_header',$data);
 		$this->load->view('frontend/v_search',$data);
 		$this->load->view('frontend/v_footer',$data);
+	}
+
+	public function shop()
+	{
+		$this->load->view('frontend/v_shopRansel');
 	}
 
 	public function notfound()

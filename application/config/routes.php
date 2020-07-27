@@ -14,6 +14,11 @@ $route['dashboard'] = 'dashboard';
 $route['blog'] = 'welcome/blog';
 $route['blog/(:num)'] = 'welcome/blog/$1';
 
+
+// // route untuk halaman blog
+$route['shop'] = 'welcome/shop';
+$route['shop/(:num)'] = 'welcome/shop/$1';
+
 // route untuk halaman kategori artikel
 $route['kategori/(:any)'] = 'welcome/kategori/$1';
 $route['kategori/(:any)/(:num)'] = 'welcome/kategori/$1/$s2';

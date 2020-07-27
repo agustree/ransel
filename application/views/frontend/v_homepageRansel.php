@@ -412,7 +412,7 @@
 										</ul>
 									</li>
 									<li><a href="shop.html">shop</a></li>
-									<li><a href="<?php echo base_url('application/views/frontend/v_blogRansel.php'); ?>">blog</a></li>
+									<li><a href="<?php echo base_url('blog');?>">blog</a></li>
 								</ul>
 							</div>
 						</nav>
